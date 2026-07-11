@@ -68,8 +68,8 @@ export const useAuthStore = defineStore({
         },
 
         async refreshToken() {
-
-            this.user = await fetchWrapperRefreshToken.post(
+         
+           this.user = await fetchWrapperRefreshToken.post(
                 `${baseUrl}/refresh-token-spa`,
                 {
                     refreshToken: this.rToken

@@ -31,6 +31,7 @@ async function startApp () {
     } catch {
         // catch error to start app on success or failure
     }
+    
 
     app.mount('#app');
 }
