@@ -34,10 +34,10 @@ function onSubmit(values, { setErrors }) {
 <template>
      
     <div>
-        <h3>Vue 3 SPA + FastAPI doing Authentication by JWT, Refresh Token Rotation and Revoked Token Reuse Detection</h3>
+        <h3>Vue 3 SPA with FastAPI doing Authentication by JWT, Refresh Token Rotation and Refresh Token Reuse Detection</h3>
         
         <br/><br />
-        <b>Last updated:</b> 10-07-2026
+        <b>Last updated:</b> 13-07-2026
         <br /><br />
 
         <div class="alert alert-info">
