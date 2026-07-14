@@ -1,8 +1,8 @@
 # 🔐 Vue 3 + Pinia JWT Authentication Client (FastAPI Integration)
 
-A Vue 3 frontend application demonstrating authentication using JWT access tokens, refresh token rotation and revoked token reuse detection.
+A Vue 3 frontend application demonstrating authentication using JWT access tokens, refresh token rotation and refresh token reuse detection.
 
-This project is designed as a companion client for a FastAPI backend implementing JWT authentication with refresh token rotation and revoked token reuse detection.
+This project is designed as a companion client for a FastAPI backend implementing JWT authentication with refresh token rotation and refresh token reuse detection.
 
 **Last updated:** 13-07-2026
 
@@ -14,7 +14,7 @@ This project is designed as a companion client for a FastAPI backend implementin
 - Access token + refresh token handling
 - Automatic token renewal via refresh endpoint
 - Refresh Token Rotation
-- Revoked Token Reuse Detection
+- Refresh Token Reuse Detection
 - Pinia state management for authentication state
 - Form validation using VeeValidate + Yup
 - Clean separation of API and state logic
